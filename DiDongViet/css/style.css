@@ -7,9 +7,11 @@ html
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .page-wrapper
 {
  width: 100%;
+ background-color: #f2f2f2
 }
 
 /* CSS Icon */
@@ -170,6 +172,7 @@ ul.header-links
 .row-nav
 {
     box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+    background-color: #fff;
 }
 .navigation
 {
@@ -265,11 +268,18 @@ span.title.font-caption.font-special
     padding: 20px;
     border: 1px solid #d1d1d1;
     box-shadow: 0 5px 5px rgb(0 0 0 / 19%);
-    width: 180px;
+    min-width: 180px;
     display: none;
+}
+
+.sub-nav-section
+{
+    display: inline-block;
+    padding: 0 15px;
 }
 .sub-nav-item
 {
+    
 }
 li.sub-nav-item 
 {
