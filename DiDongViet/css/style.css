@@ -6,6 +6,8 @@
 html
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+    width: auto;
 }
 
 .page-wrapper
@@ -195,6 +197,7 @@ ul.header-links
 a.nav-link
 {
     color: black;
+    font-size: 16px;
 }
 
 .menu-function-wrapper
@@ -235,7 +238,7 @@ span.title.font-caption.font-special {
 /* Hover Nav */
 a:hover.nav-link
 {
-    color: red;
+    color: #be1e2d;
 }
 li:hover.nav-item>.sub-nav
 {
@@ -250,7 +253,7 @@ a:hover.menu-function-item
 a:hover.menu-item-special
 {
     background-color: #ffb638;
-    border: none;
+    border: 1px solid #ffb638;
 }
 a:hover.menu-item-special
 span.title.font-caption.font-special
@@ -298,3 +301,92 @@ a:hover.sub-nav-link
     color: red;
     
 }
+
+/* END NAV */
+
+/* START MAIN */
+main
+{}
+.content{}
+
+.home-top-promotion
+{}
+
+
+/* ASIDE_LEFT */
+#trending-content
+{
+    
+}
+.trending-body
+{
+    padding: 15px;
+    background-color: #fff;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    min-width: 190px
+}
+ .title-trending
+{
+    background-color: #be1e2d;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.trending-item
+{
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+
+}
+
+a.trend-links {
+    text-decoration: none;
+    color: black;
+}
+
+/* Aside-Right */
+.Hot{
+
+}
+
+.item.hot-deal-accessories.text-center {
+    margin-bottom: 16px;
+}
+
+.item>a>img
+{
+    width: 100%;
+}
+
+span.Hot-item {
+    float: left;
+    background-color: brown;
+    padding: 0 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+a.font-subtitle-2 {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* hover */
+a:hover.font-subtitle-2
+{
+    color: #be1e2d;
+}
+
+.trending-item:hover>a
+{
+    color: #be1e2d;
+}
+/* End Aside Right */
