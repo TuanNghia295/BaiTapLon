@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trang đăng ký</title>
+    <link rel="icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../font&icon/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="../font&icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../js/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="../js/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link src="../css/style.css"></link>
+    <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="../js/jquery.validate.js"></script>
+<style>
+    .columns {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  display: block;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -8px;
+  margin-left: -8px;
+}
+</style>
+        
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 15,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+</head>
+<style>
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.img.card-img-top {
+    height: 200px;
+    width: 200px;
+}
+  
+  .container{
+    width: 2000px;
+    padding-left: 0px;
+    background-color: ;
+  }
+  .container1 div {
+         background: rgb(174, 9, 35);
+         
+         }
+         .as {
+          color: rgb(255, 255, 255);
+          font-style: 20px Roboto,sans-serif;
+          font-size: 24px;;
+          text-decoration: none;
+         }
+h3{
+  text-decoration: none;
+}
+div.alert alert-info clearfix{
+    background-color:  rgb(174, 9, 35);
+}
+</style>
+<body>
+    <div class="page-wrapper">
+        <header>    
+            <div class="header-section">
+                <div class="header-banner container-fluid">
+                    <div class="row">
+                        <div class="banner col-md-12">
+                            <a href=""><img style="width: 100%;" src="../img/Header-discount.png" alt="" class="banner-discount"></a>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="header-content" style="background-color: firebrick;">
+                        <div class="row mx-5 my-1">
+                            <div class="logo col-3 my-3">
+                                <a class="align-middle" href="" title="Di Động Việt - Hệ thống bán lẻ Điện thoại, Macbook, Phụ kiện chính hãng">
+                                     <img src="../img/logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="header-form col-5 my-3">
+                                <form action="" method="post" id="search-mini-form">
+                                    <input type="text" name="txtSearch" id="txtSearch" class="p-2" placeholder="Bạn muốn tìm gì" size="50px" role="combobox">
+                                    <button type="submmit" title="Tìm kiếm" class="ti-search p-2" aria-label="Search" style="border: white;" ></button>
+                                </form>
+                                
+                            </div>
+                            <div class="top-main-infor col-4 my-3 d-flex align-items-center">    
+                                <div class="main-info-item info-hotline d-flex align-items-center ">
+                                    <div class="phone-icon ">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <div class="info ">
+                                        <a href="tel:18006108">
+                                            <p class="sub">Hotline hỗ trợ</p>
+                                            <strong class="title">1800 6108</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="main-info-item info-customers d-flex align-items-center ">
+                                    <div class="user-icon ">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                        <ul class="header-links" style="display: block;">
+                                            <li class="authorization-links d-inline-block">
+                                                <a href="" class="customer-login-link">Đăng nhập</a>
+                                            </li>
+                                            /
+                                            <li class="authorization-links d-inline-block">
+                                                <a href="" class="customer-register-link">Đăng ký</a> 
+                                            </li>
+                                            <div class="memebers-section">
+                                                <p class="fs-20 bold ">
+                                                    <a href="" class="customer-list-link">Thành viên</a>  
+                                                </p>
+                                            </div>
+                                        </ul>
+                                    </div>        
+                                    <div class="shopify-icon">
+                                        <i class="fa-brands fa-shopify"></i>
+                                    </div>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+        </header>
+        <nav></nav>
+        <main>
+            <div class="content">
+                <!-- promotion: khuyến mãi, sự đề xuất, sự thăng cấp,thăng chứ -->
+                <div class="home-top-promotion">
+                    <aside class="trending"></aside>
+                    <section class="saleOff"></section>
+                    <aside class="Hot"></aside>
+                </div>
+            </div>
+        
+            <div class="columns"><div class="row"><div class="content-wrapper"><div class="column main"><input name="form_key" type="hidden" value="yWLnXbpmdtUf3fNj"><div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+                <script>
+                    window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/didongviet.vn\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/didongviet.vn\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/didongviet.vn\/"};
+                </script>
+                <!-- ko template: getTemplate() -->
+            
+            
+            <!-- /ko -->
+                
+            </div>
+            
+            
+            
+            
+            
+            
+            <main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+                <div class="page messages"><div data-placeholder="messages"></div>
+                <div data-bind="scope: 'messages'">
+                    <!-- ko if: cookieMessages && cookieMessages.length > 0 --><!-- /ko -->
+                
+                    <!-- ko if: messages().messages && messages().messages.length > 0 --><!-- /ko -->
+                </div>
+                
+                </div><div class="columns"><div class="row"><div class="content-wrapper"><div class="column main"><input name="form_key" type="hidden" value="8wE1ppHlTJPAL7J5"><div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+                    <script>
+                        window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/didongviet.vn\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/didongviet.vn\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/didongviet.vn\/"};
+                    </script>
+                    <!-- ko template: getTemplate() -->
+                
+                
+                <!-- /ko -->
+                    
+                </div>
+
+                <div class="maincontents row"><div class="mainwrapper col-md-9"><div class="block-section"><div class="product-info-main"><div class="heading-title">
+                <h1>MacBook Air 13-inch 2020 | M1 8GB/256GB</h1>
+                </div>
+                <span class="product-reviews-summary"> 
+                             <span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+                            <meta itemprop="ratingValue" content="4.5">
+                            <meta itemprop="ratingCount" content="178">
+                        </span>
+                            <div class="rating-summary review-rating">
+                        <i class="fa star-full"></i>
+                        <i class="fa star-full"></i>
+                        <i class="fa star-full"></i>
+                        <i class="fa star-full"></i>
+                                 <i class="fa star-empty"></i>
+                             </div>
+                        <span class="reviews-actions-intro product attribute review">
+                        <a id="viewmoreallreview" class="action view" href="#">
+                           <!--<meta itemprop="reviewCount" content=""/>
+                                        <meta itemprop="ratingValue" content="4.5"/>
+                             -->
+                                          Hỏi đáp 
+                        </a>
+                        
+                    </span> 
+                    <span class="reviews-actions-intro">No: 2000146310542</span></span>
+                <script type="text/javascript">
+                    require(['jquery'],function($){ 
+                        $(document).ready(function(){
+                            $("#viewmoreallreview").click(function(){  
+                                $("html,body").animate({scrollTop:$("#customer-reviews").offset().top},500);
+                               
+                
+                                return false;
+                            });
+                
+                
+                            });
+                    })
+                </script>
+                
+                  <div id="product-link-related">
+                
+                      
+                     <div class="grid-related">
+                                          <div class="item-related ">
+                                 <div class="inner">
+                                     <a href="https://didongviet.vn/apple-macbook-air-13inch-8-gb-512-gb-2020-chip-arm-full-vat" title="MacBook Air 13-inch 2020 | M1 8GB/512GB">
+                                         <span><i></i>Air 512GB</span>
+                                     <strong><span class="price-related">30.490.000&nbsp;₫</span></strong>
+                                 </a>
+                                 </div>
+                             </div>
+                                      <div class="item-related ">
+                                 <div class="inner">
+                                     <a class="current-active" href="https://didongviet.vn/macbook-air-13-256gb-2020-chip-arm" title="MacBook Air 13-inch 2020 | M1 8GB/256GB">
+                                         <span><i></i>Air 256GB</span>
+                                     <strong><span class="price-related">23.690.000&nbsp;₫</span></strong>
+                                 </a>
+                                 </div>
+                             </div>
+                              </div>
+                 </div>
+                
+                 <style type="text/css">
+                     #product-link-related{ overflow: hidden}
+                     #product-link-related h4{margin:0 0 10px;font-weight:normal;}
+                     #product-link-related a{position: relative;border:1px solid #d1d1d1;background: #f5f5f5; padding:5px 10px;float: left;text-align: center;margin-right: 10px;text-decoration: none; margin-bottom: 5px}
+                     #product-link-related a:hover{border:1px solid #eee;}
+                     #product-link-related a i{display: none}
+                     #product-link-related a span{color: #333;font-weight:bold;}
+                     #product-link-related a strong .price-related{font-size: 15px;display: block;color: #d9232e;margin-top: 5px}
+                     #product-link-related a.current-active,#product-link-related a:hover{border-color: #d9232e;}
+                       #product-link-related a.current-active{background:#fff8f8;}
+                      .grid-related{display:flex;-webkit-display:flex;flex-flow:row nowrap;flex:1 100%;margin-bottom:10px;}
+                      .grid-related .item{margin-right:10px;}
+                      .grid-related .item .inner{padding-left:10px;padding-right:10px;}
+                     @media  screen and (min-width: 1024px)
+                     {
+                          
+                     }
+                 </style>
+                 <!-- Open Graph Metadata -->
+                
+                <meta itemprop="mpn" content="191120">
+                <meta itemprop="name" content="MacBook Air 13-inch 2020 | M1 8GB/256GB">
+                
+                <meta itemprop="sku" content="2000146310542">
+                <meta itemprop="description" content="Macbook Air M1 2020 256GB (Chip ARM) chính hãng giá rẻ. Bán trả góp 0% lãi suất, Giao hàng toàn quốc - Di Động Việt TPHCM và Đà Nẵng.">
+                
+                <meta itemprop="productID" content="2000146310542">
+                <meta itemprop="url" content="https://didongviet.vn/macbook-air-13-256gb-2020-chip-arm">
+                <meta itemprop="image" content="https://cdn.didongviet.vn/pub/media/wysiwyg/Macbook/macbook-air-m1/macbook-air-m1-2020-256gb-man-hinh.png">
+                <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope="">
+                        <meta itemprop="name" content="MacBook">
+                      </div>
+                      <meta itemprop="itemCondition" content="https://schema.org/NewCondition">
+                  
+                    <meta itemprop="availability" content="https://schema.org/InStock">
+                 
+                    <meta itemprop="price" content="23690000" itemscope="">
+                
+                
+                <div itemprop="priceCurrency" content="VND" itemscope="">
+                
+                <meta itemprop="priceValidUntil" content="2022-10-14 23:59:59" itemscope="">
+                </div>
+                 
+                 
+                
+                  <!-- todo: add more check when product issable or preorder -->
+                <div class="product-add-form">
+                    <div class="tocart-form-data" data-name="MacBook Air 13-inch 2020 | M1 8GB/256GB" data-price="23.690.000&nbsp;₫" data-image="https://cdn.didongviet.vn/pub/media/catalog/product/cache/39355d7f22ff5096f13e71fb0fd65cb0/m/a/macbook-air-13-inch-m1-8gb-256gb-didongviet.jpg"></div>
+                    <form data-product-sku="2000146310542" action="https://didongviet.vn/checkout/cart/add/uenc/aHR0cHM6Ly9kaWRvbmd2aWV0LnZuL21hY2Jvb2stYWlyLTEzLTI1NmdiLTIwMjAtY2hpcC1hcm0%2C/product/11206/" method="post" id="product_addtocart_form" novalidate="novalidate">
+                        <input type="hidden" name="product" value="11206">
+                        <input type="hidden" name="selected_configurable_option" value="">
+                        <input type="hidden" name="related_product" id="related-products-field" value="">
+                        <input type="hidden" name="item" value="11206">
+                        <input name="form_key" type="hidden" value="8wE1ppHlTJPAL7J5">                                    
+                                    <div class="product-options-wrapper" id="product-options-wrapper" data-hasrequired="* Required Fields">
+                    <div class="fieldset" tabindex="0">
+                        <!--SELECT app_id,inventory FROM ddv_appstore_to_inventory Where product_id in ('11218','11217','11219')--->     
+                
+                
+                
+                <div class="field configurable required">
+                            <!--<label class="label label_supper_attr" for="attribute93">
+                                <span>Màu<font></font><span class="price"></span></span>
+                            </label>-->
+                            <div class="  control-option">
+                                                        <label data-id="11218" data-sku="9000146310566" onclick="showImage(this);newloadNhanhProduct(this,'26430302',11206);" ;="" data-title="Màu xám" class="opt_attr active" data-price="23.690.000&nbsp;₫" data-marketprice="28.490.000&nbsp;₫" data-discount="16" for="opt_attr_7">
+                                            <input id="opt_attr_7" type="radio" value="7" name="super_attribute[93]">
+                                            <span class="name"><i class="tick"></i>Màu xám</span>
+                                            <span class="price">23.690.000&nbsp;₫</span>
+                                            
+                                            <!-- <i class="fa fa-check"></i>-->
+                                        </label>
+                                          
+                                                         <label data-id="11217" data-sku="9000146310559" onclick="showImage(this);newloadNhanhProduct(this,'26430301',11206);" ;="" data-title="Vàng (Gold)" class="opt_attr" data-price="23.690.000&nbsp;₫" data-marketprice="28.490.000&nbsp;₫" data-discount="16" for="opt_attr_16">
+                                            <input id="opt_attr_16" type="radio" value="16" name="super_attribute[93]">
+                                            <span class="name"><i class="tick"></i>Vàng (Gold)</span>
+                                            <span class="price">23.690.000&nbsp;₫</span>
+                                            
+                                            <!-- <i class="fa fa-check"></i>-->
+                                        </label>
+                                          
+                                                         <label data-id="11219" data-sku="26430303" onclick="showImage(this);newloadNhanhProduct(this,'26430303',11206);" ;="" data-title="Màu bạc" class="opt_attr" data-price="23.690.000&nbsp;₫" data-marketprice="28.490.000&nbsp;₫" data-discount="16" for="opt_attr_17">
+                                            <input id="opt_attr_17" type="radio" value="17" name="super_attribute[93]">
+                                            <span class="name"><i class="tick"></i>Màu bạc</span>
+                                            <span class="price">23.690.000&nbsp;₫</span>
+                                            
+                                            <!-- <i class="fa fa-check"></i>-->
+                                        </label>
+                                          
+                                    
+                               <!-- <select name="super_attribute[93]"
+                                        data-selector="super_attribute[93]"
+                                        data-validate="{required:true}"
+                                        id="attribute93"
+                                        class="super-attribute-select">
+                                    <option value="">Choose an Option...</option>
+                                </select>-->
+                            </div>
+                        </div>
+                    
+                    
+                <script>
+                    var clickCount=0;
+                    var list_images= {"attributes":{"93":{"id":"93","code":"color","label":"M\u00e0u","options":[{"id":"7","label":"M\u00e0u x\u00e1m","products":["11218"],"product_id":"11218","price":"23690000.000000","market_price":"28490000.000000","discount":16,"thumbnail":"https:\/\/cdn.didongviet.vn\/pub\/media\/catalog\/product\/m\/a\/macbook-air-xam_1.jpg","id_nhanh":"26430302","sku":"9000146310566"},{"id":"16","label":"V\u00e0ng (Gold)","products":["11217"],"product_id":"11217","price":"23690000.000000","market_price":"28490000.000000","discount":16,"thumbnail":"https:\/\/cdn.didongviet.vn\/pub\/media\/catalog\/product\/m\/a\/macbook-air-gold_1.jpg","id_nhanh":"26430301","sku":"9000146310559"},{"id":"17","label":"M\u00e0u b\u1ea1c","products":["11219"],"product_id":"11219","price":"23690000.000000","market_price":"28490000.000000","discount":16,"thumbnail":"https:\/\/cdn.didongviet.vn\/pub\/media\/catalog\/product\/m\/a\/macbook-air-bac_1.jpg","id_nhanh":"26430303","sku":"26430303"}],"position":"0"}},"template":"<%- data.price %>\u00a0\u20ab","currencyFormat":"%s\u00a0\u20ab","optionPrices":{"11218":{"oldPrice":{"amount":23690000},"basePrice":{"amount":23690000},"finalPrice":{"amount":23690000},"tierPrices":[],"msrpPrice":{"amount":null}},"11217":{"oldPrice":{"amount":23690000},"basePrice":{"amount":23690000},"finalPrice":{"amount":23690000},"tierPrices":[],"msrpPrice":{"amount":null}},"11219":{"oldPrice":{"amount":23690000},"basePrice":{"amount":23690000},"finalPrice":{"amount":23690000},"tierPrices":[],"msrpPrice":{"amount":null}}},"priceFormat":{"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},"prices":{"oldPrice":{"amount":23690000},"basePrice":{"amount":23690000},"finalPrice":{"amount":23690000}},"productId":"11206","chooseText":"Choose an Option...","images":{"11218":[{"thumb":"https:\/\/didongviet.vn\/\/pub\/media\/catalog\/product\/\/m\/a\/macbook-air-xam_1.jpg","img":"https:\/\/didongviet.vn\/\/pub\/media\/catalog\/product\/\/m\/a\/macbook-air-xam_1.jpg","full":"https:\/\/didongviet.vn\/\/pub\/media\/catalog\/product\/\/m\/a\/macbook-air-xam_1.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],"11217":[{"thumb":"https:\/\/didongviet.vn\/\/pub\/media\/catalog\/product\/\/m\/a\/macbook-air-gold_1.jpg","img":"https:\/\/didongviet.vn\/\/pub\/media\/catalog\/product\/\/m\/a\/macbook-air-gold_1.jpg","full":"https:\/\/didongviet.vn\/\/pub\/media\/catalog\/product\/\/m\/a\/macbook-air-gold_1.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],"11219":[{"thumb":"https:\/\/didongviet.vn\/\/pub\/media\/catalog\/product\/\/m\/a\/macbook-air-bac_1.jpg","img":"https:\/\/didongviet.vn\/\/pub\/media\/catalog\/product\/\/m\/a\/macbook-air-bac_1.jpg","full":"https:\/\/didongviet.vn\/\/pub\/media\/catalog\/product\/\/m\/a\/macbook-air-bac_1.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}]},"index":{"11218":{"93":"7"},"11217":{"93":"16"},"11219":{"93":"17"}},"skus":[]};
+                    function showImage(obj)
+                    {
+                        if(!clickCount){clickCount++;return ;}
+                        var imageObj =  (list_images);
+                        var iThumb= [];
+                        let img;
+                        var imagesToUpdate;
+                        objId=jQuery(obj).data('id');
+                        console.log('click');
+                        for(xin in imageObj['images'][objId])
+                        {
+                                //iThumb.push(imageObj['images'][objId][xin]['img']);
+                                imagesToUpdate = {
+                                    "img" : imageObj['images'][objId][xin]['img'],
+                                    "thumb" : imageObj['images'][objId][xin]['thumb']
+                                };
+                
+                                iThumb[xin] = imagesToUpdate;
+                            }
+                            iThumb = jQuery.extend(true, [], iThumb);
+                            var gallery = jQuery(".column").find('[data-gallery-role=gallery-placeholder]').data('gallery');
+                
+                            gallery.updateData(iThumb);
+                            if(iThumb.length)
+                            {
+                                for(x in iThumb)
+                                {
+                                    
+                
+                                 jQuery(".nav-gallery-right img").attr("src",iThumb.pop());
+                                 break;
+                             }
+                         }
+                         
+                
+                
+                     }
+                 </script> 
+                
+                <style type="text/css">
+                
+                   
+                  @media screen and (min-width: 1024px)
+                  {
+                    .page-product-configurable .product-options-wrapper label.label_supper_attr{display: none !important; }
+                }
+                </style>
+                <script>
+                require([
+                    'jquery',
+                    'jquery-ui-modules/datepicker'
+                ], function($){
+                
+                //<![CDATA[
+                    $.extend(true, $, {
+                        calendarConfig: {
+                            dayNames: ["Ch\u1ee7 nh\u1eadt","Th\u1ee9 hai","Th\u1ee9 ba","Th\u1ee9 t\u01b0","Th\u1ee9 n\u0103m","Th\u1ee9 s\u00e1u","Th\u1ee9 b\u1ea3y"],
+                            dayNamesMin: ["CN","Th 2","Th 3","Th 4","Th 5","Th 6","Th 7"],
+                            monthNames: ["th\u00e1ng m\u1ed9t","th\u00e1ng hai","th\u00e1ng ba","th\u00e1ng t\u01b0","th\u00e1ng n\u0103m","th\u00e1ng s\u00e1u","th\u00e1ng b\u1ea3y","th\u00e1ng t\u00e1m","th\u00e1ng ch\u00edn","th\u00e1ng m\u01b0\u1eddi","th\u00e1ng m\u01b0\u1eddi m\u1ed9t","th\u00e1ng m\u01b0\u1eddi hai"],
+                            monthNamesShort: ["thg 1","thg 2","thg 3","thg 4","thg 5","thg 6","thg 7","thg 8","thg 9","thg 10","thg 11","thg 12"],
+                            infoTitle: "About\u0020the\u0020calendar",
+                            firstDay: 0,
+                            closeText: "Close",
+                            currentText: "Go\u0020Today",
+                            prevText: "Previous",
+                            nextText: "Next",
+                            weekHeader: "WK",
+                            timeText: "Time",
+                            hourText: "Hour",
+                            minuteText: "Minute",
+                            dateFormat: $.datepicker.RFC_2822,
+                            showOn: "button",
+                            showAnim: "",
+                            changeMonth: true,
+                            changeYear: true,
+                            buttonImageOnly: null,
+                            buttonImage: null,
+                            showButtonPanel: true,
+                            showWeek: true,
+                            timeFormat: '',
+                            showTime: false,
+                            showHour: false,
+                            showMinute: false
+                        }
+                    });
+                
+                    enUS = {"m":{"wide":["January","February","March","April","May","June","July","August","September","October","November","December"],"abbr":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]}}; // en_US locale reference
+                //]]>
+                
+                });
+                </script>
+                
+                    </div>
+                </div>
+<div class="product-info-price"><div>
+                                        <div class="product-price-top">
+                            <div class="price-box price-final_price" data-role="priceBox" data-product-id="11206" data-price-box="product-id-11206"><span class="normal-price">
+                    
+                <span class="price-container price-final_price tax weee" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+                            <span class="price-label">Mua ngay</span>
+                        <span id="product-price-11206" data-price-amount="23690000" data-price-type="finalPrice" class="price-wrapper "><span class="price">23.690.000&nbsp;₫</span></span><span class="vmarket-price">28.490.000&nbsp;₫</span><span class="vdiscount">16%</span>
+                                 <div class="old-price-info" style="display: none;">
+                            <span class="percent-discount">
+                            17%           
+                           </span>
+                            <span class="price-old" style="display: none;">28.490.000&nbsp;₫</span>
+                        </div>
+                             <link itemprop="url" href="https://didongviet.vn/macbook-air-13-256gb-2020-chip-arm">
+                         <meta itemprop="availability" content="https://schema.org/InStock">
+                          <meta itemprop="priceValidUntil" content="2022-10-01">
+                        <meta itemprop="price" content="23690000">
+                        <meta itemprop="priceCurrency" content="VND">
+                    </span>
+                   </span>
+                
+                </div>
+                <div class="wrapper-or">
+                    <div class="line"></div>
+                    <div class="wordwrapper">
+                        <div class="word">Hoặc</div>
+                    </div>
+                </div>
+                <div class="installment-wraper">
+                    <div class="installment-content">
+                        <span class="installment-title">Trả trước từ</span>
+                         <div class="price-box-installment">
+                            <span class="price-installment"> 
+                            7.107.000&nbsp;₫<span class="month"></span>
+                            </span>
+                        </div>
+                  
+                    </div>
+                </div>
+                <hr class="line">
+                
+                        </div>
+                            </div>     <div class="product-promotion-wraper">
+                <section class="promotion-wrapper">
+                    <div class="promotion-info">
+                       
+                        <ul class="promotion-details">
+                            <span class="pro-title text-red"><i class="fa fa-pro"></i>Khuyến mãi, ưu đãi</span>
+                            <ul class="promotion-main">
+                <li>Từ <strong>15 - 17.04:</strong> Giá chỉ còn <strong><span style="color: #ff0000;">23.690.000đ</span></strong> <a href="https://didongviet.vn/khuyen-mai/sale-cuoi-tuan" target="_blank" rel="noopener">(Xem chi tiết)</a></li>
+                <li>Từ <strong>01.04 - 01.05:&nbsp;<span style="color: #ff0000;">HOÀN TIỀN 50%</span> </strong> khi <strong>Sắm Laptop - Macbook - iMac</strong> <strong><em><a href="https://didongviet.vn/tin-tuc/mung-dai-le-sam-laptop-macbook-imac-hoan-tien-50-len-den-30-trieu-dong/" target="_blank" rel="noopener">(Xem chi tiết)</a></em></strong></li>
+                </ul>        </ul>
+                        
+                                    <hr class="line">
+                            <ul class="promotion-global">
+                                <div class="box-promotion-accessories"><h4 class="total-accessories">Có <strong>7 ưu đãi nổi bật</strong> mua kèm máy</h4><ul>
+                <li>Giảm đến <span style="color: #ff0000;"><strong>44%</strong></span>&nbsp;khi mua kèm <a href="https://didongviet.vn/tin-tuc/giam-44-phan-tram-phu-kien-chinh-hang-apple/"><strong>phụ kiện chính hãng Apple</strong></a></li>
+                <li><span data-sheets-value="{" data-sheets-userformat="{" data-sheets-textstyleruns="{">Mua kèm&nbsp;<a href="https://didongviet.vn/chuot-khong-day-apple-magic-mouse-2-2021.html" target="_blank" rel="noopener">Apple Magic Mouse 2 2021</a> giá chỉ còn <strong><span style="color: #ff0000;">1.790.000đ</span></strong>&nbsp;(Giá niêm yết 2.490.000đ)</span></li>
+                <li><span data-sheets-value="{" data-sheets-userformat="{" data-sheets-textstyleruns="{">Mua kèm <a href="https://didongviet.vn/phan-mem-microsoft-office-365-personal" target="_blank" rel="noopener">phần mềm Microsoft Office 365 Personal</a> giá chỉ còn <strong><span style="color: #ff0000;">990.000đ</span>&nbsp;</strong>(Giá niêm yết&nbsp;1.290.000đ)</span></li>
+                <li><span data-sheets-value="{" data-sheets-userformat="{" data-sheets-textstyleruns="{">Giảm <span style="color: #ff0000;"><strong>20%</strong></span> khi mua kèm <a href="https://didongviet.vn/dan-macbook" target="_blank" rel="noopener">bộ dán Macbook</a></span></li>
+                <li><span data-sheets-value="{" data-sheets-userformat="{" data-sheets-textstyleruns="{">Mua kèm <a href="https://didongviet.vn/gia-do-tan-nhiet-rain-design-usa-mbar-pro-foldable-laptop-space.html" target="_blank" rel="noopener">Giá đỡ tản nhiệt Rain Design (USA) MBAR Pro Foldable Laptop Space</a> giá chỉ còn <strong><span style="color: #ff0000;">1.431.000đ</span></strong> (Giá niêm yết 1.590.000đ)</span></li>
+                <li><span data-sheets-value="{" data-sheets-userformat="{" data-sheets-textstyleruns="{">Giảm <span style="color: #ff0000;"><strong>15%</strong></span> khi mua kèm <a href="https://didongviet.vn/tui-chong-soc-tucano-velluto-macbook-16inch.html" target="_blank" rel="noopener">TÚI CHỐNG SỐC TUCANO VELLUTO 16" / JINYA NYLON CITY 16"</a></span></li>
+                <li>Giảm đến <strong><span style="color: #ff0000;">20% </span></strong><span data-sheets-value="{" data-sheets-userformat="{" data-sheets-textstyleruns="{"><span style="color: #ff0000;"><span style="color: #000000;">khi mua kèm <a href="https://didongviet.vn/tin-tuc/bao-hanh-mo-rong-uu-dai-thang-4-2022/" target="_blank" rel="noopener">Gói Bảo Hành Mở Rộng</a></span></span></span></li>
+                </ul></div>            </ul>
+                            </div>
+                </section> </div>
+                 <script>
+                    function viewMorePromotion(obj)
+                    {
+                        $this=jQuery(this);
+                       
+                        jQuery(".view-more-promotion").removeClass("view-more-promotion");
+                        return false;
+                    }
+                    require(['jquery','domReady'],function($){
+                        if($(".promotion-details li").length>3)
+                        {
+                            $(".promotion-details").addClass('view-more-promotion');
+                            //$(".promotion-details li:gt(2)").hide();
+                            $(".promotion-details").after('<p class="row-view-more"><a href="#" onclick="return viewMorePromotion(this);" class="button-more">Xem thêm ưu đãi <i class="fa fa-arrow-down"></i></a></p>');
+                        }
+                    })
+                 </script>
+                <style>
+                 .promotion-main{}
+                 .promotion-main li{margin-bottom:10px;list-style:inside}
+                 .product-status-main{margin-top:10px;}
+                .view-more-promotion{height:125px;overflow:hidden}
+                </style>
+                <div class="payment-info-wrapter">
+                <div class="type-1">Giảm thêm tới 1.5% cho thành viên của Di Động Việt. <a target="_blank" rel="nofollow" href="https://didongviet.vn//members">(Xem chi tiết)</a></div>
+                
+                     <div class="type-1">Miễn phí Giao hàng siêu tốc trong 1 giờ <a target="_blank" rel="nofollow" href="https://didongviet.vn//tin-tuc/di-dong-viet-mien-phi-giao-tai-tphcm-giao-sieu-toc-trong-1-gio/">(Xem chi tiết)</a></div>
+                     
+                          
+                </div>
+                </div><div class="product-options-bottom">
+                    <div class="box-tocart">
+                    <div class="fieldset">
+                                <div class="field qty">
+                            <label class="label" for="qty"><span>Số lượng</span></label>
+                            <div class="control">
+                                <span class="qty-action sub-action"><i class="fas fa-minus"></i></span>
+                                <input type="number" name="qty" id="qty" min="0" value="1" title="Số lượng" class="input-text qty" data-validate="{&quot;required-number&quot;:true,&quot;validate-item-quantity&quot;:{&quot;minAllowed&quot;:1,&quot;maxAllowed&quot;:10000}}">
+                                <span class="qty-action add-action"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                                <div class="actions col-md-12">
+                            <button type="submit" title="Đặt ngay" class="action primary tocart" id="product-addtocart-button">
+                                <span>Đặt ngay</span>
+                                <p>Giao hàng tân nơi hoặc nhận tại của hàng</p>
+                            </button>
+                            
+                <div id="instant-purchase" data-bind="scope:'instant-purchase'">
+                    <!-- ko template: getTemplate() -->
+                <!-- ko if: showButton() --><!-- /ko -->
+                <!-- /ko -->
+                </div>
+                
+                        </div>
+                    </div>
+                </div>
+                
+                <script>
+                    require(['jquery'], function ($) {
+                        $('.sub-action').click(function () {
+                            const qtyElement = $('#qty');
+                            if (qtyElement.val() > 1) {
+                                qtyElement.val(+qtyElement.val() - 1);
+                            }
+                        });
+                
+                        $('.add-action').click(function () {
+                            const qtyElement = $('#qty');
+                            qtyElement.val(+qtyElement.val() + 1);
+                        });
+                    });
+                </script>
+                </div>
+                    <div class="button-installment pay-actions d-flex">
+                
+                          <div class="col-installment bnt-action col-left">
+                        <a rel="nofollow" data-target="cty" class="button-checkout-installment btn-add-installment btn-go-cart " href="https://didongviet.vn/tragop/san-pham/11206-macbook-air-13-256gb-2020-chip-arm/">
+                            <span class="title">Trả góp</span>
+                            <span>Duyệt nhanh qua điện thoại</span>
+                        </a>
+                    </div>
+                    <div class="col-installment bnt-action col-right">
+                        <a rel="nofollow" data-target="cty" class="button-checkout-installment btn-add-installment btn-go-cart " href="https://didongviet.vn/tragop/san-pham/11206-macbook-air-13-256gb-2020-chip-arm/">
+                            <span class="title">Trả góp qua thẻ</span>
+                            <span>Visa, Mastercard, JCB</span>
+                        </a>
+                    </div>
+                    <script type="text/javascript">
+                       require(['jquery'],function($){
+                            $(document).ready(function(){
+                                var sample_url="https://didongviet.vn/tragop/san-pham/{id}-macbook-air-13-256gb-2020-chip-arm/";
+                                   $(".button-checkout-installment").click(function(){
+                                       $id = $(".control-option .active").data('id');
+                                       new_url=sample_url;
+                                     new_url=  new_url.replace('{id}',$id);
+                                       window.location=(new_url+"#"+$(this).data("target"));
+                                        return false;
+                                   }); 
+                            });
+                       })
+                    </script> 
+                            
+                </div>
+                
+                  
+                
+                
+                  
+                
+                 
+                <script type="text/javascript">
+                               require(['jquery'],function($){
+                                    $(document).ready(function(){
+                                        var sample_url="https://didongviet.vn/tragop/san-pham/{id}-macbook-air-13-256gb-2020-chip-arm/";
+                                           $(".btn-add-installment-paylater").click(function(){
+                                               $id = $(".control-option .active").data('id');
+                                               new_url=sample_url;
+                                             new_url=  new_url.replace('{id}',$id);
+                                               window.location=(new_url+"#"+$(this).data("target"));
+                                                return false;
+                                           }); 
+                                    });
+                               })
+                           </script> 
+                 
+                           <script>
+                    require(['jquery','domReady'],function(){
+                        jQuery(document).ready(function($){
+                            $(".button-quick-cartvideo").click(function(){
+                                if($(".control-option .active").length)
+                                {
+                                   $url="https://didongviet.vn/thanhtoan/checkoutvideo";
+                                  var frm = document.createElement("form");
+                                  frm.name="frmQuickVideo";
+                                  frm.action=$url;
+                                  frm.method="POST";
+                                  frm.innerHTML=('<input type="hidden" name="product_id" value="11206" /><input type="hidden" name="product_color_id" value="'+$(".control-option .active").data("id")+'" />');
+                                  $(".product-info-main form").after(frm);
+                                   frm.submit();
+                                }
+                                else
+                                {
+                                    alert("Vui lòng chọn sản phẩm cần mua");
+                                }
+                                return false;
+                            });
+                        });
+                    })
+                </script>                    </form>
+                </div>
+                
+                </div><div class="product media"><a id="gallery-prev-area" tabindex="-1"></a>
+                <div class="action-skip-wrapper"><a class="action skip gallery-next-area" href="#gallery-next-area">
+                    <span>
+                        Skip to the end of the images gallery    </span>
+                </a>
+                </div>
+                
+                <div class="gallery-placeholder" data-gallery-role="gallery-placeholder"><!--
+                /**
+                 * Copyright © Magento, Inc. All rights reserved.
+                 * See COPYING.txt for license details.
+                 */
+                -->
+                <div class="fotorama--hidden"></div><style>.fotorama1649949491934 .fotorama__nav--thumbs .fotorama__nav__frame{
+                padding:2px;
+                height:110px}
+                .fotorama1649949491934 .fotorama__thumb-border{
+                height:110px;
+                border-width:2px;
+                margin-top:2px}</style><div class="fotorama-item fotorama fotorama1649949491934" data-gallery-role="gallery">
+                    <div data-gallery-role="fotorama__focusable-start" tabindex="-1"></div>
+                    <div class="fotorama__wrap fotorama__wrap--css3 fotorama__wrap--slide fotorama__wrap--toggle-arrows fotorama__wrap--no-controls" style="min-width: 0px; max-width: 100%;">
+                        <div class="fotorama__stage" data-fotorama-stage="fotorama__stage" style="width: 356px; height: 356px;"><div class="fotorama__fullscreen-icon" data-gallery-role="fotorama__fullscreen-icon" tabindex="0" aria-label="Exit fullscreen" role="button"></div>
+                            <div class="fotorama__arr fotorama__arr--prev" tabindex="0" role="button" aria-label="Previous" data-gallery-role="arrow">
+                                <div class="fotorama__arr__arr"></div>
+                            </div>
+                            <div class="fotorama__stage__shaft fotorama__grab" tabindex="0" data-gallery-role="stage-shaft" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); margin-left: 0px; width: 356px;">
+                            <div class="fotorama__stage__frame fotorama_vertical_ratio fotorama__loaded fotorama__loaded--img magnify-wheel-loaded" aria-hidden="true" data-active="false" href="https://didongviet.vn/pub/media/catalog/product//m/a/macbook-air-13-inch-m1-8gb-256gb-didongviet.jpg" style="left: 358px;"><img src="https://didongviet.vn/pub/media/catalog/product//m/a/macbook-air-13-inch-m1-8gb-256gb-didongviet.jpg" alt="MacBook Air 13-inch 2020 | M1 8GB/256GB" class="fotorama__img" aria-hidden="false"></div><div class="fotorama__stage__frame fotorama_vertical_ratio fotorama__loaded fotorama__loaded--img" aria-hidden="true" style="left: -358px;" href="https://didongviet.vn/pub/media/catalog/product//u/n/untitled-2_5_4.jpg"><img src="https://didongviet.vn/pub/media/catalog/product//u/n/untitled-2_5_4.jpg" alt="MacBook Air 13-inch 2020 | M1 8GB/256GB" class="fotorama__img" aria-hidden="false"></div><div class="fotorama__stage__frame fotorama_vertical_ratio fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__active" aria-hidden="false" style="left: 0px;" href="https://didongviet.vn/pub/media/catalog/product//u/n/untitled-3_6.jpg" data-active="true"><img src="https://didongviet.vn/pub/media/catalog/product//u/n/untitled-3_6.jpg" alt="MacBook Air 13-inch 2020 | M1 8GB/256GB" class="fotorama__img" aria-hidden="false"></div></div>
+                            <div class="fotorama__arr fotorama__arr--next" tabindex="0" role="button" aria-label="Next" data-gallery-role="arrow">
+                                <div class="fotorama__arr__arr"></div>
+                            </div>
+                            <div class="fotorama__video-close"></div>
+                            <div class="fotorama__zoom-in zoom-in-loaded" data-gallery-role="fotorama__zoom-in" aria-label="Zoom in" role="button" tabindex="0"></div>
+                            <div class="fotorama__zoom-out zoom-out-loaded" data-gallery-role="fotorama__zoom-out" aria-label="Zoom out" role="button" tabindex="0"></div>
+                            <div class="fotorama__spinner"></div>
+                        </div><div class="fotorama__nav-wrap fotorama__nav-wrap--horizontal" data-gallery-role="nav-wrap">
+                            <div class="photo-tab">
+                                <div class="product-image-tab active bnt-tab"><div class="triangle"></div>Hình ảnh sản phẩm</div>
+                                <div class="product-video-tab bnt-tab"><div class="triangle"></div>Video</div>
+                            </div>
+                            <div class="fotorama__nav fotorama__nav--thumbs fotorama__shadows--left" style="height: 114px; width: 356px;">
+                                
+                                <div class="fotorama__thumb__arr fotorama__thumb__arr--left" role="button" aria-label="Previous" data-gallery-role="arrow" tabindex="-1">
+                                    <div class="fotorama__thumb--icon"></div>
+                                </div>
+                                <div class="fotorama__nav__shaft fotorama__grab" style="transition-duration: 0ms; transform: translate3d(-2px, 0px, 0px);">
+                                    <div class="fotorama__thumb-border" style="transition-duration: 0ms; transform: translate3d(270px, 0px, 0px); width: 88px; height: 110px;"></div>
+                                <div class="fotorama__nav__frame fotorama__nav__frame--thumb" tabindex="0" role="button" data-gallery-role="nav-frame" data-nav-type="thumb" aria-label="MacBook Air 13-inch 2020 | M1 8GB/256GB" style="width: 88px;" data-active="false">
+                    <div class="fotorama__thumb fotorama_vertical_ratio fotorama__loaded fotorama__loaded--img"><img src="https://didongviet.vn/pub/media/catalog/product//m/a/macbook-air-13-inch-m1-8gb-256gb-didongviet.jpg" alt="MacBook Air 13-inch 2020 | M1 8GB/256GB" class="fotorama__img" aria-hidden="false">
+                    </div>
+                </div><div class="fotorama__nav__frame fotorama__nav__frame--thumb" tabindex="0" role="button" data-gallery-role="nav-frame" data-nav-type="thumb" aria-label="MacBook Air 13-inch 2020 | M1 8GB/256GB" style="width: 88px;" data-active="false">
+                    <div class="fotorama__thumb fotorama_vertical_ratio fotorama__loaded fotorama__loaded--img"><img src="https://didongviet.vn/pub/media/catalog/product//u/n/untitled-1_6_3.jpg" alt="MacBook Air 13-inch 2020 | M1 8GB/256GB" class="fotorama__img" aria-hidden="false">
+                    </div>
+                </div><div class="fotorama__nav__frame fotorama__nav__frame--thumb" tabindex="0" role="button" data-gallery-role="nav-frame" data-nav-type="thumb" aria-label="MacBook Air 13-inch 2020 | M1 8GB/256GB" style="width: 88px;" data-active="false">
+                    <div class="fotorama__thumb fotorama_vertical_ratio fotorama__loaded fotorama__loaded--img"><img src="https://didongviet.vn/pub/media/catalog/product//u/n/untitled-2_5_4.jpg" alt="MacBook Air 13-inch 2020 | M1 8GB/256GB" class="fotorama__img" aria-hidden="false">
+                    </div>
+                </div><div class="fotorama__nav__frame fotorama__nav__frame--thumb fotorama__active" tabindex="0" role="button" data-gallery-role="nav-frame" data-nav-type="thumb" aria-label="MacBook Air 13-inch 2020 | M1 8GB/256GB" style="width: 88px;" data-active="true">
+                    <div class="fotorama__thumb fotorama_vertical_ratio fotorama__loaded fotorama__loaded--img"><img src="https://didongviet.vn/pub/media/catalog/product//u/n/untitled-3_6.jpg" alt="MacBook Air 13-inch 2020 | M1 8GB/256GB" class="fotorama__img" aria-hidden="false">
+                    </div>
+                </div></div>
+                                <div class="fotorama__thumb__arr fotorama__thumb__arr--right fotorama__arr--disabled" role="button" aria-label="Next" data-gallery-role="arrow" tabindex="-1" disabled="disabled">
+                                    <div class="fotorama__thumb--icon"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div data-gallery-role="fotorama__focusable-end" tabindex="-1"></div>
+                </div>
+                <div class="magnifier-preview" data-gallery-role="magnifier" id="preview" style="display: none;"></div>
+                </div>
+                
+                
+                <div class="action-skip-wrapper"><a class="action skip gallery-prev-area" href="#gallery-prev-area">
+                    <span>
+                        Skip to the beginning of the images gallery    </span>
+                </a>
+                </div><a id="gallery-next-area" tabindex="-1"></a>
+                <div class="product-item__video">
+                         
+                </div><div class="product-item__short-description">
+                    <p style="text-align: justify;"><strong>Macbook Air M1 2020 256GB&nbsp;Chính hãng (Full VAT)</strong>&nbsp;bán tại Di Động Việt - Đại lý uỷ quyền chính thức của Apple tại Việt Nam, là phiên bản quốc tế chính hãng. Máy chưa Active + nguyên seal hộp, <span style="color: #ff0000;">mới 100%</span> (Fullbox).</p>
+                <p style="text-align: justify;">Macbook Air M1 2020 256GB&nbsp;Chính hãng (Full VAT)&nbsp;là phiên bản được phân phối chính thức bởi Apple Việt Nam, được bảo hành <span style="color: #ff0000;">12 tháng</span> tại Trung tâm Uỷ quyền cao cấp nhất của Apple tại Việt Nam và trên toàn cầu miễn phí. Đồng thời hưởng nhiều ưu đãi, khuyến mãi hấp dẫn tại Di Động Việt.</p></div>
+                </div></div></div><div class="mainwrapper-right col-md-3">    <div class="block-section">
+                        <div class="info-more info-note-more">
+                            <div class="info-more-head"> 
+                                <i class="fa fa-bag-info"></i>
+                                <strong>Bộ sản phẩm</strong>
+                            </div>
+                            <div class="info-content">
+                                                <p>Bộ sản phẩm gồm: Hộp, Thân máy, Cáp USB-C to C, Adapter sạc 30W, Sách HDSD
+                </p>
+                                                            </div>
+                        </div>
+                        <hr class="line">
+                        <div class="info-more info-note-more">
+                              <div class="info-more-head"> 
+                            <i class="fa fa-shield-done"></i>
+                            <strong>Bảo hành</strong>
+                        </div>
+                                    <div class="info-content">
+                                <ul><li>Giá đã bao gồm 10% VAT. Bảo hành&nbsp;<strong>12 tháng</strong>&nbsp;tại trung tâm bảo hành chính hãng Apple Việt Nam. (<a href="https://didongviet.vn/tin-tuc/bao-hanh-gioi-han-mot-nam-cua-apple" target="_blank" rel="noopener">Xem chi tiết</a>)
+                </li></ul>            </div>
+                                    </div>
+                         
+                    </div>
+                <div class="block-detail-related mt-16">
+                
+                
+                </div></div></div>
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                         <div class="bottom-wraper"><div class="row"><div class="details-info col-md-8"><div class="block-section"><div class="product attribute description">
+                        <script>
+                        require(["jquery", "mage/translate"], function ($, $tr) {
+                            $(document).ready(function(){
+                                /* Count of paragraphs shown */
+                                var cutCount = 5;
+                                $(".full-text").children().each(function (i) {
+                                    i++;
+                                    if(i == cutCount) {
+                                        $(this).append('<hr class="line"><a href="javascript:void(0);" class="read-more">Đọc tiếp bài viết <i class="fa fa-arrow-down"></i></a>')   
+                                    }
+                                    if(i > cutCount) {
+                                       $(this).hide();
+                                    }
+                                });
+                
+                                $(".read-more").click(function(){
+                                    $(".full-text").children().each(function (i) {
+                                        $(this).show();
+                                    });
+                                    $(this).remove();
+                                    $(".full-text .line").remove();
+                                });
+                            });
+                        });
+                    </script>
+                    <div class="full-text">
+                        <h2 dir="ltr"><a href="https://didongviet.vn/macbook-air-13-256gb-2020-chip-arm" target="_blank" rel="noopener">Macbook Air M1 2020 256GB</a> có hiệu năng nhanh hơn tới 3 lần so với hầu hết các laptop chạy Windows có mặt trên thị trường. Ngoài ra, theo công bố của Cupertino&nbsp;Macbook Air M1 2020 256GB sẽ có tốc độ hơn 9 lần so với các phiên bản Air cũ.</h2>
+                <p><img src="https://cdn.didongviet.vn/pub/media/wysiwyg/Macbook/macbook-air-m1/macbook-air-m1-2020-256gb-man-hinh.png" alt=""></p>
+                <h3 dir="ltr">Thiết kế Macbook Air M1 2020 256GB nhỏ gọn&nbsp;</h3>
+                <p dir="ltr"><strong>Macbook Air M1 2020 256GB</strong>&nbsp;có thân hình cực kì mỏng nhẹ, viền màn hình mỏng và màn hình vẫn là 13-inch Retina nhưng được nâng cấp nhẹ với chuẩn màu P3 mới.</p>
+                <p dir="ltr"><img src="https://cdn.didongviet.vn/pub/media/wysiwyg/Macbook/macbook-air-m1/macbook-air-m1-2020-256gb-danh-gia.png" alt=""><hr class="line"><a href="javascript:void(0);" class="read-more">Đọc tiếp bài viết <i class="fa fa-arrow-down"></i></a></p>
+                <p dir="ltr" style="display: none;">&nbsp;</p>
+                <p dir="ltr" style="display: none;">Macbook Air M1 2020 256GB&nbsp;sở hữu thiết kế không khác mấy so với các người đàn anh trước đó được làm từ chất liệu hợp kim nhôm chắc chắn và cực kì bền bỉ. Máy có kích thước khá nhỏ gọn 30,41 x 21,24 x 1,61 cm và trọng lượng nặng chỉ 1.29 kg cực kì nhẹ. Với kích thước nhỏ gọn và trọng lượng nhẹ như vậy chiếc laptop này có thể bỏ vừa nhiều loại túi hiện nay thuật tiện cho người dùng mang theo cả ngày.</p>
+                <p dir="ltr" style="display: none;">Máy vẫn sở hữu màn hình Retina 13 inch cùng với các vị trí các cổng kết nối không thay đổi. Mẫu laptop Air vẫn giữ lại Touch ID tích hợp nút nguồn đi kèm với Magic Keyboard.</p>
+                <h3 dir="ltr" style="display: none;">Về cổng kết nối, mẫu laptop này sẽ có:</h3>
+                <p dir="ltr" style="display: none;">&nbsp;</p>
+                <ul style="display: none;">
+                <li>2 cổng USB-C bên cạnh trái bao gồm 1 cổng Thunderbolt 4 và 1 cổng USB 4.</li>
+                <li>1 cổng jack tai nghe 3.5mm bên cạnh phải dành cho việc kết nối với tai nghe.</li>
+                <li>Một điểm ấn tượng năm nay đó là việc mẫu MacBook M1 sẽ không còn quạt tản nhiệt. Dẫu vậy, Apple vẫn bố trí những khe tản nhiệt nhằm giúp máy giải phóng bớt nhiệt lượng khi thực hiện các tác vụ nặng.</li>
+                </ul>
+                <p style="display: none;"><img src="https://cdn.didongviet.vn/pub/media/wysiwyg/Macbook/macbook-air-m1/macbook-air-m1-2020-256gb-cong-ket-noi.png" alt=""></p>
+                <h3 dir="ltr" style="display: none;">Hiệu năng&nbsp;Macbook Air M1 2020 256GB vượt trội so với thế hệ Intel</h3>
+                <p dir="ltr" style="display: none;">Chiếc máy tính chạy chip M1 sẽ có hiệu năng nhanh hơn tới 3 lần so với hầu hết các laptop chạy Windows có mắt trên thị trường.<strong>&nbsp;Macbook Air M1 2020 256GB</strong> cũng cho hiệu năng tiêu thụ thấp hơn bất cứ con chip Intel nào trước đây. Ngoài ra, theo công bố của Cupertino máy sẽ có tốc độ hơn 9 lần so với các phiên bản Air cũ.</p>
+                <p dir="ltr" style="display: none;"><img src="https://cdn.didongviet.vn/pub/media/wysiwyg/Macbook/macbook-air-m1/macbook-air-m1-2020-256gb-hieu-nang.png" alt=""></p>
+                <p dir="ltr" style="display: none;">Con chip này được thiết kế dựa trên nền tảng ARM, sản xuất trên tiến trình 5nm. Bên trong con chip xử lý sẽ là CPU 8 nhân với 4 nhân hiệu suất cao và 4 nhân hiệu năng tiết kiệm điện năng. Nhờ đó, máy sẽ có hiệu năng rất ấn tượng và chạy các tác vụ từ cơ bản đến nâng cao.</p>
+                <p dir="ltr" style="display: none;">Con chip trên&nbsp;Macbook Air M1 2020 256GB sẽ có 16 tỷ bóng bán dẫn sẽ đưa ra những dự đoán máy học khi kết hợp với nền tảng macOS Big Sur.</p>
+                <h3 dir="ltr" style="display: none;">Bàn phím Magic hành trình phím 1mm</h3>
+                <p dir="ltr" style="display: none;">Bàn phím Magic Keyboard được hỗ trợ các phím tắt mới được táo khuyết trang bị cho MacBook M1. Bàn phím cũng sẽ hỗ trợ chuyển đổi ngôn ngữ trực tiếp chỉ với một vài thao tác hay nhiều tác vụ khác chỉ với một cú chạm.</p>
+                <p dir="ltr" style="display: none;"><img src="https://cdn.didongviet.vn/pub/media/wysiwyg/Macbook/macbook-air-m1/macbook-air-m1-2020-256gb-ban-phim.JPG" alt=""></p>
+                <p dir="ltr" style="display: none;">Magic Keyboard cũng có đèn nền với cảm biến ánh sáng giúp thay đổi độ sáng tùy thuộc vào điều kiện môi trường. Ngay cả trackpad cũng hỗ trợ các cử chỉ thu phóng, vuốt một cách chính xác và mượt mà.</p>
+                <p dir="ltr" style="display: none;"><img style="display: block; margin-left: auto; margin-right: auto;" title="Macbook Air 13 M11 8GB/256GB (2020) (Chip ARM) Chính hãng (Full VAT)" src="https://cdn.didongviet.vn/pub/media/wysiwyg/Macbook_Air_13_M11.jpg"></p>
+                <h3 dir="ltr" style="display: none;">Ổ cứng 256GB dung lượng lớn tốc độ cao, hỗ trợ nhiều cổng kết nối</h3>
+                <p dir="ltr" style="display: none;">Nhà sản xuất tích hợp ổ cứng SSD (solid-state storage) 256 GB có tốc độ nhanh gấp đôi cho chiếc&nbsp;<strong>Macbook Air M1 2020 256GB</strong> này, đồng nghĩa với việc dữ liệu được xử lý trơn tru và mượt mà hơn, trong thực tế cho thấy kết quả nhanh hơn 21% trong các tác vụ lõi đơn và 30% trong các tác vụ đa lõi. Bạn còn có thế có lựa chọn khác với dung lượng ổ cứng lớn hơn đó là phiên 512 GB, phù hợp với nhiều đối tượng người dùng.</p>
+                <p dir="ltr" style="display: none;">Để thích hợp hơn cho nhu cầu làm việc Apple cũng trang bị cho chiếc máy này nhiều cổng kết nối thông dụng hiện nay như: 2 cổng Thunderbolt 3 (USB-C) ports with support for: Charging DisplayPort Thunderbolt (up to 40Gb/s) USB 3.1 Gen 2 (up to 10Gb/s) hỗ trợ cho việc kết nối cắm sạc, truyền dữ liệu hay kết nối với các thiết bị khác.</p>
+                <h3 dir="ltr" style="display: none;">Thời lượng Pin ấn tượng với viên pin polymer 49.9Wh</h3>
+                <p dir="ltr" style="display: none;">Macbook Air M1 2020 256GB&nbsp;sẽ có thời lượng pin 15 giờ cho tác vụ lướt web. Trong khi đó, laptop này sẽ cho thời gian xem video lên đến 18 tiếng. Thời lượng này gấp đôi so với các phiên bản cũ.</p>
+                <p dir="ltr" style="text-align: right; display: none;"><span style="text-align: right;">&nbsp;Di Động Việt</span></p>    </div>
+                </div>
+                </div>
+</div></div><div class="details-relateds col-md-4"><div class="block-section">    <div class="additional-attributes-wrapper table-wrapper product-dtcontent">
+                        <div class="attributes-list">
+                        <div class="head-attribute-title"><i class="fa fa-setting"></i><span class="attribute-title">Thông số | Cấu hình</span></div>
+                        <hr class="line">
+                        <div class="data table additional-attributes" id="product-attribute-specs-table">
+                        <ul class="display">
+                                            
+                                     
+                                       
+                                                                        <li><p>Thương hiệu</p><div><span>Apple</span></div></li>
+                                            
+                                    
+                                     
+                                   
+                               
+                                
+                                                                         
+                                     
+                                       
+                                                                        <li><p>Công nghệ CPU</p><div><span>Apple M1 chip with 8‑core CPU, 7‑core GPU, and 16‑core Neural Engine</span></div></li>
+                                            
+                                    
+                                     
+                                   
+                               
+                                
+                                                                         
+                                     
+                                       
+                                                                        <li><p>RAM</p><div><span>8 GB</span></div></li>
+                                                                        <li><p>Loại RAM</p><div><span>LPDDR4X 4266 MT/s</span></div></li>
+                                                                        <li><p>Ổ cứng</p><div><span>256GB SSD</span></div></li>
+                                            
+                                    
+                                     
+                                   
+                               
+                                
+                                                                         
+                                     
+                                       
+                                                                        <li><p>Kích thước màn hình</p><div><span>13-inch Retina display with True Tone</span></div></li>
+                                                                        <li><p>Độ phân giải</p><div><span>2560×1600 pixels</span></div></li>
+                                                                        <li><p>Công nghệ màn hình</p><div><span>400 nits, Công nghệ IPS, LED Backlit,</span></div></li>
+                                            
+                                    
+                                     
+                                   
+                               
+                                
+                                                                         
+                                     
+                                       
+                                                                        <li><p>Card đồ họa</p><div><span>Card tích hợp - 7 nhân GPU</span></div></li>
+                                                                        <li><p>Công nghệ âm thanh</p><div><span>3 microphones, Headphones, Loa kép (2 kênh)</span></div></li>
+                                            
+                                    
+                                     
+                                   
+                               
+                                
+                                                                         
+                                     
+                                       
+                                                                        <li><p>Cổng giao tiếp</p><div><span>2 x Thunderbolt 3 (USB-C), Jack tai nghe 3.5 mm</span></div></li>
+                                                                        <li><p>Kết nối không dây</p><div><span>Wi-Fi 802.11 a/b/g/n/ac, Bluetooth 5.0</span></div></li>
+                                                                        <li><p>Khe đọc thẻ nhớ</p><div><span>Không</span></div></li>
+                                                                        <li><p>Ổ đĩa quang</p><div><span>Không</span></div></li>
+                                                                        <li><p>Đèn bàn phím</p><div><span>Có</span></div></li>
+                                            
+                                    
+                                     
+                                   
+                               
+                                
+                                                                         
+                                     
+                                       
+                                                                        <li><p>Hệ điều hành</p><div><span>Mac OS</span></div></li>
+                                            
+                                    
+                                     
+                                   
+                               
+                                
+                                                                         
+                                     
+                                       
+                                                                        <li><p>Thông tin Pin</p><div><span>Khoảng 10 tiếng</span></div></li>
+                                            
+                                    
+                                     
+                                   
+                               
+                                
+                                                                         
+                                     
+                                       
+                                                                        <li><p>Kích thước</p><div><span>304.1 x 212.4 x 16.1 mm</span></div></li>
+                                                                        <li><p>Trọng lượng</p><div><span>1.29 Kg</span></div></li>
+                                                                        <li><p>Chất liệu</p><div><span>Nhôm tái chế 100% thân thiện với môi trường</span></div></li>
+                                            
+                                    
+                                     
+                                   
+                               
+                                
+                                                                     </ul>
+                        </div>
+                            </div>
+                </div>
+                </div></div>
+                </div></div>
+                
+                <script type="text/javascript">
+                    function submitCheckout(obj)
+                    {
+                
+                             $form=jQuery("#product_addtocart_cform");
+                            
+                            jQuery.ajax({
+                                url:$form.attr('action'),
+                                type:"POST",
+                                beforeSend:function(){
+                                    jQuery(obj).hide().after('<i class="fa  fa-spin fa-spinner" id="wait-ajax-cart"></i>');
+                                },
+                                dataType:'json',
+                                data:$form.serialize(),
+                                success:function(data){
+                                     
+                                        jQuery('#product-addtocart-button').show().next().remove();
+                                        if(data.backUrl)
+                                        window.location=data.backUrl;
+                                }
+                            });
+                        return false;
+                    }
+                    /*require(['jquery'],function($){
+                
+                        $("form#product_addtocart_form").submit(function(e){
+                            e.preventDefault();
+                
+                            $form=$(this);
+                            $form.find('#product-addtocart-button').hide().after('<i class="fa  fa-spin fa-spinner" id="wait-ajax-cart"></i>');
+                            $.ajax({
+                                url:$form.attr('action'),
+                                type:"POST",
+                                dataType:'json',
+                                data:$form.serialize(),
+                                success:function(data){
+                                        $form.find('#product-addtocart-button').show().next().remove();
+                                        if(data.backUrl)
+                                        window.location=data.backUrl;
+                                }
+                            });
+                                return false;
+                
+                        });
+                    })*/
+                </script></div></div></div><div class="column main">
+                
+                
+                </div></div></main>    
+            
+            
+
+
+            
+
+<!----------------------------footer---------------------------------->
+<div  class="footer content"  style="font-size: 14px;">
+    <div style="font-size: 14px;background-color: white;" class="top-footer mt-16 container"><div class="row"><div class="store-system col-md-6">
+  <div class="store-system-wrapper content-part">
+      <p class="title bold fs-20 lh-23">Hệ thống 28 cửa hàng Di Động Việt</p><hr>
+      <div class="content footer">
+          <div class="font-caption">Nơi có tất cả các sản phẩm Di Động Việt đang kinh doanh và là nơi Trade-in Thu cũ lên đời. Đặc biệt: Máy qua sử dụng giá rẻ, Trả góp linh hoạt với nhiều phương thức</div>
+          <div class="store-system-list">
+             <div class="showroom-info font-body-2">
+<div class="field address">
+<div class="showroom-info font-body-2">
+<div class="field address">
+<ul>
+<li>198A Tân Hương, Phường Tân Quý, Quận Tân Phú (Sắp mở bán)</li>
+<li>450 - 452 Nguyễn Oanh, Quận Gò Vấp (Sắp mở bán)</li>
+<li>324 Huỳnh Tấn Phát, Quận 7 (Sắp mở bán)</li>
+<li>3A Lê Thái Tổ, Quận Hoàn Kiếm, Hà Nội (Ngay ngã 4 Hàng Gai và Lê Thái Tổ)</li>
+<li>16 Nguyễn An Ninh, TP. Dĩ An, Bình Dương&nbsp;</li>
+<li>116 Thái Hà, P. Trung Liệt, Quận Đống Đa, Hà Nội&nbsp;</li>
+</ul>
+</div>
+</div>
+</div>
+</div> 
+           </div><hr>
+          <a href="">Xem tất cả 28 cửa hàng Di Động Việt &gt;</a>
+      </div>
+  </div>
+</div><div class="store-system col-md-6">
+  <div class="store-system-wrapper content-part">
+      <p class="title bold fs-20 lh-23"><h2>Hệ thống 09 cửa hàng SiS Mobifone - Di Động Việt</h2></p><hr>
+      <div class="content">
+          <div class="font-caption">Hệ thống liên kết theo mô hình Shop in Shop (SiS) giữa Mobifone và Di Động Việt. Nơi chỉ bán điện thoại Samsung, Oppo, Vsmart, Xiaomi với giá rẻ nhất thị trường.</div>
+          <div class="store-system-list">
+             <ul>
+<li>80 Nguyễn Du, P. Bến Nghé, Quận 1, TP.HCM</li>
+<li>291A Tô Hiến Thành, P. 13, Quận 10, TP.HCM</li>
+<li>122A Phan Đăng Lưu, Phường 3, Quận Phú Nhuận, TP.HCM</li>
+<li>170C Quang Trung, P. 10, Quận Gò Vấp, TP.HCM</li>
+<li>254 Lê Văn Việt, P. Tăng Nhơn Phú A, Quận 9, TP.HCM</li>
+</ul> 
+           </div><hr>
+          <a href="">Xem tất cả 09 cửa hàng SiS Mobifone - Di Động Việt &gt;</a>
+      </div>
+  </div>
+</div></div>
+<div class="widget block block-static-block">
+<p class="ddv-apple-thongbao"><img src="../img/footer/ddv-apple-chinh-thuc.png" height="49px" width="175px" alt="">Là đại lý ủy quyền chính thức của Apple tại Việt Nam (Apple Authorized Reseller) từ tháng 11/2020, Di Động Việt đem đến cho quý khách hàng những trải nghiệm tuyệt vời khi mua sắm các sản phẩm, dịch vụ của Apple với chất lượng tốt nhất cùng thái độ phục vụ đúng chuẩn AAR</p></div>
+</div><div class="footer-middle" ><div class="bottom-footer mt-16 container" style="font-size: 23px;background-color: white;">
+<div class="row">
+<div class="footer-links col-md-8" style="font-size: 14px;">
+  <div class="footer-link-wrapper content-part">
+      <div class="footer-link footer-link-left">
+          <ul>
+<li><a href="">Mua hàng trả góp</a></li>
+<li><a href="">Chính sách bảo hành</a></li>
+<li><a href="">Chính sách đổi trả</a></li>
+<li><a href="">Chính sách bán hàng</a></li>
+<li><a href="">Chính sách bảo mật</a></li>
+<li><a href="">Chính sách sử dụng</a></li>
+<li><a href="">Hướng dẫn mua hàng từ xa</a></li>
+</ul>                </div>
+      <div class="footer-link footer-link-right">
+          <ul>
+<li><a href="">Khuyến mãi tháng 04</a></li>
+<li><a href="">Tin công nghệ 24h</a></li>
+<li><a href="">Trade-in thu cũ lên đời</a></li>
+<li><a href="">Tra cứu điểm thành viên</a></li>
+<li><a href="">Phụ kiện chính hãng</a></li>
+<li><a href="">Tuyển dụng mới nhất</a></li>
+<li><a href="">Trung tâm bảo hành Apple tại Việt Nam</a></li>
+</ul>                </div>
+  </div>
+</div>
+<div class="footer-support col-md-4">
+  <div class="footer-support-wrapper content-part">
+      <p class="title bold fs-20 lh-23">Hỗ trợ</p>
+      <div class="content" style="font-size: 14px;">
+          <div class="support-list">
+              <ul>
+                  <li>
+                      <div class="agency">
+                          <p>Gọi tư vấn máy - phụ kiện</p>
+                          <span>(08:00 – 21:30)</span>
+                      </div>
+                      <div class="phone"><strong class="bold fs-20 lh-23">1800.6018</strong></div>
+                  </li>
+                  <li>
+                      <div class="agency">
+                          <p>Khiếu nại - Góp ý</p>
+                          <span>(08:00 – 21:30)</span>
+                      </div>
+                      <div class="phone"><strong class="bold fs-20 lh-23">1800.6306</strong></div>
+                  </li>
+                  <li>
+                      <div class="agency">
+                          <p>Bảo hành - Hỗ trợ kỹ thuật</p>
+                          <span>(09:00 – 21:00)</span>
+                      </div>
+                      <div class="phone"><strong class="bold fs-20 lh-23">1800.6729</strong></div>
+                  </li>
+                  <li>
+                      <div class="agency">
+                          <p>Gọi mua hàng từ xa</p>
+                          <span>(08:00 – 21:30)</span>
+                      </div>
+                      <div class="phone"><strong class="bold fs-20 lh-23">1800.6018</strong></div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="footer-connect-info mt-16 container" style="font-size: 23px;background-color: white;">
+<div class="row">
+<div class="col-md-12">
+  <div class="connect-info-wrapper content-part" style="font-size: 14px;">
+          <div class="footer-connect-left">
+              <div class="connect-info social">
+                  <p class="title bold fs-20 lh-23">
+                      <i class="fa fa-swap"></i>Kết nối Di Động Việt
+                  </p>
+                  <div class="icon">
+                      <a rel="nofollow" target="_blank" href="">
+                          <i class="fa fa-facebook"></i>
+                      </a>
+                      <a rel="nofollow" target="_blank" href="">
+                          <i class="fa fa-instagram"></i>
+                      </a>
+                      <a rel="nofollow" target="_blank" href="">
+                          <i class="fa fa-youtube"></i>
+                      </a>
+                  </div>
+              </div>
+              <div class="connect-info pay-support">
+                  <p class="title bold fs-20 lh-23">
+                      <i class="fa fa-credit-card"></i>Hỗ trợ thanh toán                            </p>
+                  <div class="icon">
+                      <i class="fa fa-visa"></i>
+                      <i class="fa fa-mastercard"></i>
+                      <span class="more-payment"><img width="150" src=""></span>
+                  
+                  </div>
+                 
+              </div>
+</div>
+  </div>
+</div>
+</div>
+</div></div>
+<div class="col-12"><hr></div>
+<div class="info-content text-center font-body-2 col-12">
+  <p>Công Ty TNHH Công Nghệ và Truyền Thông VMG - 73 Trần Quang Khải, Phường Tân Định , quận 1, TPHCM.<br>Mã số doanh nghiệp: 0316105545, ngày cấp: 10/01/2020, nơi cấp: Sở kế hoạch và đầu tư thành phố Hồ Chí Minh <br>MST:0316105545. <br>Chủ sở hữu: Nguyễn Thị Kim Xuân - Điện thoại: 1800.6018 (miễn phí) - Email: lienhe@didongviet.vn - Bản quyền thuộc về Di Động Việt.</p>        </div>
+</div>
+</div></div></div>
+
+
+
+
+
+
+
+        </main>
+    </div>
+</body>
