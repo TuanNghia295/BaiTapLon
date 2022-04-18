@@ -18,12 +18,19 @@ html
 
 /* CSS Icon */
 i.ti-search {
+<<<<<<< HEAD
     padding: 0 20px;
+=======
+    padding: 12px;
+>>>>>>> 8df84335a8960ee5816ee9607605757e9b7fa242
     font-size: 20px;
     vertical-align: middle;
     line-height: 2;
     cursor: pointer;
+<<<<<<< HEAD
     float: right;
+=======
+>>>>>>> 8df84335a8960ee5816ee9607605757e9b7fa242
 }
 
 .fa-solid.fa-0,.ti-arrow-up,
@@ -191,11 +198,14 @@ ul.header-links
 {
 
 }
+<<<<<<< HEAD
 ul.navbar-nav.navigation {
     margin: 0;
     flex: 1;
     justify-content: space-evenly;
 }
+=======
+>>>>>>> 8df84335a8960ee5816ee9607605757e9b7fa242
 .nav-link
 {
     padding: 0;
