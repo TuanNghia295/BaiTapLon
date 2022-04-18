@@ -28,15 +28,16 @@ i.ti-search {
 .fa-solid.fa-0,.ti-arrow-up,
 .ti-notepad
 {
+    font-size: 16px;
     margin: 1px 9px 0 0;
 }
 
-/* .ti-mobile,.fa-solid.fa-apple-whole,
+.ti-mobile,.fa-solid.fa-apple-whole,
 .fa-solid.fa-laptop,.fa-solid.fa-headphones,
-.fa-solid.fa-battery-empty,.fa-solid.fa-desktop
+.fa-solid.fa-battery-empty,.fa-solid.fa-desktop,.ti-harddrives
 {
-    margin-right: 8px;
-} */
+    font-size: 16px;
+}
 
 .header-section
 {
@@ -180,6 +181,8 @@ ul.header-links
 .navigation
 {
     position: relative;
+    flex: 1;
+    justify-content: space-around;
 }
 .nav-item
 {
@@ -295,6 +298,7 @@ a.sub-nav-link
 {
     text-decoration: none;
     color: black;
+    font-size: 16px;
 }
 /* Hover sub-nav 1 */
 a:hover.sub-nav-link
@@ -392,3 +396,10 @@ a:hover.font-subtitle-2
     color: #be1e2d;
 }
 /* End Aside Right */
+
+/* Phan noi dung */
+h5.as.col-3.text-left-center {
+    padding: 10px;
+    color: white;
+    margin: 0;
+}
